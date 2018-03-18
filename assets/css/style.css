@@ -1,0 +1,61 @@
+.jumbotron {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: rgb(133, 245, 6);
+    background-color: oldlace;
+    background-image: url('../images/game.jpg');
+    
+}
+
+body {
+    background-image: url('../images/game.jpg');
+}
+
+.panel-title, .category, .panel-heading {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: rgb(158, 231, 158); */
+    background-image: url('../images/game.jpg');
+    color: orangered;
+    
+}
+
+#wordToGuess {
+    text-align: center;
+    background-image: url('../images/game.jpg');
+    color: orangered;
+}
+
+.panel-body {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    background-image: url('../images/game.jpg');
+    color: orangered;
+}
+
+.panel {
+    border-style: hidden;
+}
+
+#hangman-img {
+    float: left;
+}
+
+.foot-container {
+    background-color: lightgray;
+    color: white;
+    border-top: 1px solid teal;
+    height: 10px;
+   padding-left: 40%;
+   padding-right: 10%;
+  
+  }
+
+  @media screen and (max-width: 980px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
