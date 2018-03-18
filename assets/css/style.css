@@ -24,7 +24,8 @@ body {
 #wordToGuess {
     text-align: center;
     background-image: url('../images/game.jpg');
-    color: orangered;
+    color: rgb(255, 11, 235);
+    font-size: 40px;
 }
 
 .panel-body {
